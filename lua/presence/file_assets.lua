@@ -252,7 +252,7 @@ return {
     tk = { "Tcl/Tk", "tcl" },
     tl = { "Teal", "teal" },
     toml = { "TOML", "toml" },
-    ts = { "TypeScript", "typescript" },
+    ["ts"] = { "ts", "typescript" },
     tsx = { "React", "react" },
     txt = { "Text file", "text" },
     uc = { "UnrealScript", "unreal" },
