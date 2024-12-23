@@ -12,6 +12,7 @@
 -- }
 return {
     [".aliases"] = { ".aliases", "shell" },
+    [".component.ts"] = { "Angular component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }
     [".appveyor.yml"] = { "AppVeyor config", "appveyor" },
     [".babelrc"] = { "Babel config", "babel" },
     [".babelrc.cjs"] = { "Babel config", "babel" },
