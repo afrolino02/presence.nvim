@@ -139,13 +139,6 @@ function Presence:setup(...)
         self.options.file_assets[name] = asset
     end
 end
-
-    for name, asset in pairs(default_file_assets) do
-     self.options.file_assets[name] = asset
-    end
-end
-
-
     -- Get and check discord socket path
     local discord_socket_path = self:get_discord_socket_path()
     if discord_socket_path then
@@ -462,17 +455,6 @@ end
 -- Get the name of the file for the given path
 function Presence.get_filename(path, path_separator)
     return path:match(string.format("^.+%s(.+)$", path_separator))
-end
-
--- Get the file extension for the given filename
-for name, asset in pairs(default_file_assets) do
-    if not self.options.file_assets[name] then
-        if name == ".component.ts" then
-            self.options.file_assets[name] = { "Angular Component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }
-        else
-            self.options.file_assets[name] = asset
-        end
-    end
 end
 
 -- Asegurarse de que `Presence.get_file_extension` maneje correctamente las extensiones .component.ts
