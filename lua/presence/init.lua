@@ -146,7 +146,7 @@ for name, asset in pairs(default_file_assets) do
 end
 
 -- Añadir específicamente el .component.ts después del bucle
-self.options.file_assets[".component.ts"] = { "Angular Component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }
+
 
 
 -- Añadir específicamente el .component.ts después del bucle
@@ -155,12 +155,14 @@ self.options.file_assets[".component.ts"] = { "Angular Component", "https://i.ib
 
 -- Asegurarse de que `Presence.get_file_extension` maneje correctamente las extensiones .component.ts
 function Presence.get_file_extension(path)
-    local extension = path:match("^.+%.(.+)$")
+    -- Si el archivo tiene la extensión .component.ts, devuelve "component.ts"
     if path:match("%.component%.ts$") then
-        extension = "component.ts"
+        return "component.ts"
     end
-    return extension
+    -- De lo contrario, devuelve la extensión normal
+    return path:match("^.+%.(.+)$")
 end
+
 
     -- Get and check discord socket path
     local discord_socket_path = self:get_discord_socket_path()
