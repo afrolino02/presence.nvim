@@ -124,6 +124,7 @@ return {
     ["zprofile"] = { "zprofile", "shell" },
     ["zshenv"] = { "zshenv", "shell" },
     ["zshrc"] = { "zshrc", "shell" },
+    ["astro"] = { "astro", "https://i.ibb.co/PWt3Ch5/astro-svgrepo-com.png" },
     addressbook = { "abook", "abook" },
     ahk = { "Autohotkey", "autohotkey" },
     applescript = { "Applescript", "applescript" },
