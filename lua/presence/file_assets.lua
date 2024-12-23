@@ -97,7 +97,7 @@ return {
     ["gitlab.yml"] = { "GitLab config", "gitlab" },
     ["go.mod"] = { "go.mod", "go" },
     ["go.sum"] = { "go.sum", "go" },
-    ["angular.component.ts"] = { "angular.component.ts", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" },
+    ["angular.component.ts"] = { "Angular component.ts", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" },
     ["jest.config.js"] = { "Jest config", "jest" },
     ["jest.setup.js"] = { "Jest config", "jest" },
     ["jest.setup.ts"] = { "Jest config", "jest" },
