@@ -160,7 +160,7 @@ function Presence.get_file_extension(path)
         return "component.ts"
     end
     -- De lo contrario, devuelve la extensión normal
-    return path:match("^.+%.(.+)$")
+    return path:match("^.+%..+%.(.+)$")
 end
 
 
