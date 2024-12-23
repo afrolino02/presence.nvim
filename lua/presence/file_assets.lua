@@ -238,7 +238,7 @@ return {
     sass = { "Sass", "sass" },
     scala = { "Scala", "scala" },
     scm = { "Scheme", "scheme" },
-    scss = { "Sass", "https://th.bing.com/th/id/OIP.KTM0ONG5WfZEYuqOTjcY9gHaGa?rs=1&pid=ImgDetMain" },
+    scss = { "Sass", "https://w7.pngwing.com/pngs/206/645/png-transparent-sass-logos-and-brands-line-filled-icon.png" },
     sh = { "Shell script", "shell" },
     shrc = { "Shell config", "shell" },
     snap = { "Jest Snapshot", "jest" },
