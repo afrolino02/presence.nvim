@@ -124,6 +124,8 @@ return {
     ["zshenv"] = { "zshenv", "shell" },
     ["zshrc"] = { "zshrc", "shell" },
     ["astro"] = { "astro", "https://i.ibb.co/PWt3Ch5/astro-svgrepo-com.png" },
+    [".component"] = { "Angular component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }, 
+    [".component.ts"] = { "Angular component TypeScript", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }, 
     addressbook = { "abook", "abook" },
     ahk = { "Autohotkey", "autohotkey" },
     applescript = { "Applescript", "applescript" },
