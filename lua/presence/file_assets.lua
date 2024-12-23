@@ -238,7 +238,7 @@ return {
     sass = { "Sass", "sass" },
     scala = { "Scala", "scala" },
     scm = { "Scheme", "scheme" },
-    scss = { "Sass", "scss" },
+    ["scss"] = { "Sass", "https://th.bing.com/th/id/OIP.KTM0ONG5WfZEYuqOTjcY9gHaGa?rs=1&pid=ImgDetMain" },
     sh = { "Shell script", "shell" },
     shrc = { "Shell config", "shell" },
     snap = { "Jest Snapshot", "jest" },
