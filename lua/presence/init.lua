@@ -135,12 +135,10 @@ function Presence:setup(...)
     -- File assets options
     self:set_option("file_assets", {})
     for name, asset in pairs(default_file_assets) do
-    if not self.options.file_assets[name] then
         if name == ".component.ts" then
             self.options.file_assets[name] = { "Angular Component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }
         else
-            self.options.file_assets[name] = asset
-        end
+     self.options.file_assets[name] = asset
     end
 end
 
