@@ -134,15 +134,20 @@ function Presence:setup(...)
     self:set_option("show_time", true)
     -- File assets options
     self:set_option("file_assets", {})
-    -- Asegúrate de definir tus opciones iniciales si no están definidas
 
+
+-- Asegúrate de definir tus opciones iniciales si no están definidas
+self.options.file_assets = self.options.file_assets or {}
 
 for name, asset in pairs(default_file_assets) do
     if not self.options.file_assets[name] then
         self.options.file_assets[name] = asset
     end
-        self.options.file_assets[".component.ts"] = { "Angular Component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }
 end
+
+-- Añadir específicamente el .component.ts después del bucle
+self.options.file_assets[".component.ts"] = { "Angular Component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }
+
 
 -- Añadir específicamente el .component.ts después del bucle
 
