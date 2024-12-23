@@ -480,7 +480,6 @@ function Presence.get_file_extension(path)
     local extension = path:match("^.+%.(.+)$")
     if path:match("%.component%.ts$") then
         extension = "component.ts"
-        self.options.file_assets[name] = { "Angular Component", "https://i.ibb.co/jDvq1mV/angular-svgrepo-com.png" }:
     end
     return extension
 end
